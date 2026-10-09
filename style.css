@@ -270,3 +270,94 @@ footer p {
     animation: none;
   }
 }
+/* Tema warna per menu */
+
+/* Falafel: oranye */
+.dish.falafel {
+  background-color: #FFD9A0;
+  border-left: 14px solid #F28C0F;
+}
+.dish.falafel .tag {
+  background-color: #F28C0F;
+  color: #FFFFFF;
+}
+.dish.falafel .price {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 48%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(120deg, #FFB347, #FFD08A, #FF9A3C, #FFB347);
+}
+
+/* Pasta Salad: hijau */
+.dish.salad {
+  background-color: #B8F2C4;
+  border-left: 14px solid #3FA55B;
+}
+.dish.salad .tag {
+  background-color: #3FA55B;
+  color: #FFFFFF;
+}
+.dish.salad .price {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 48%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(120deg, #6FD98A, #B6F5C2, #4CC26E, #6FD98A);
+}
+
+/* Spagetti: merah tomat */
+.dish.spagetti {
+  background-color: #FFB8A8;
+  border-left: 14px solid #E53935;
+}
+.dish.spagetti .tag {
+  background-color: #E53935;
+  color: #FFFFFF;
+}
+.dish.spagetti .price {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 48%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(120deg, #FF7A5C, #FFB0A0, #FF5A4A, #FF7A5C);
+}
+
+/* Ravioli: ungu lavender */
+.dish.ravioli {
+  background-color: #E3D4FF;
+  border-left: 14px solid #8E5FE8;
+}
+.dish.ravioli .tag {
+  background-color: #8E5FE8;
+  color: #FFFFFF;
+}
+.dish.ravioli .price {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 48%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(120deg, #B794F6, #E0CCFF, #9F72F0, #B794F6);
+}
+
+/* Pizza: kuning cerah */
+.dish.pizza {
+  background-color: #FFF3A8;
+  border-left: 14px solid #F2B600;
+}
+.dish.pizza .tag {
+  background-color: #F2B600;
+  color: #2B2B3A;
+}
+.dish.pizza .price {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 48%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(120deg, #FFD93D, #FFF1A0, #FFC400, #FFD93D);
+}
+
+/* Lasagna: pink */
+.dish.lasagna {
+  background-color: #FFC9E3;
+  border-left: 14px solid #D81B7A;
+}
+.dish.lasagna .tag {
+  background-color: #D81B7A;
+  color: #FFFFFF;
+}
+.dish.lasagna .price {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 48%, rgba(255, 255, 255, 0) 50%),
+    linear-gradient(120deg, #FF8FC0, #FFC2DE, #FF6FAE, #FF8FC0);
+}
