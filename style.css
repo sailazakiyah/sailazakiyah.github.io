@@ -302,16 +302,16 @@ footer p {
     linear-gradient(120deg, #6FD98A, #B6F5C2, #4CC26E, #6FD98A);
 }
 
-/* Spagetti: merah tomat */
-.dish.spagetti {
+/* Spaghetti: merah tomat */
+.dish.spaghetti {
   background-color: #FFB8A8;
   border-left: 14px solid #E53935;
 }
-.dish.spagetti .tag {
+.dish.spaghetti .tag {
   background-color: #E53935;
   color: #FFFFFF;
 }
-.dish.spagetti .price {
+.dish.spaghetti .price {
   background-image:
     linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.35) 48%, rgba(255, 255, 255, 0) 50%),
     linear-gradient(120deg, #FF7A5C, #FFB0A0, #FF5A4A, #FF7A5C);
