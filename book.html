@@ -1,52 +1,74 @@
-<!-- slide: s1-div-code · Part 1, not RPS · end state -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
     <title>Book a Table</title>
     <meta name="description" content="Middle Eastern food in the Main District.">
     <meta name="author" content="Lazuardi Al-Muzaki">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="header">
-      <p><a href="index.html">Little Lemon</a></p>
-      <p>Middle Eastern food in the Main District</p>
-    </div>
+    <header>
+      <p class="sparkles">🧆 ✨ 🍋 ✨ 🥗</p>
+      <p id="site-name"><a href="index.html">Little Lemon</a></p>
+      <p id="tagline">Middle Eastern food in the Main District</p>
+      <p class="open-badge">open daily 11:00–22:00 · come hungry</p>
+    </header>
 
-    <div id="nav">
+    <nav>
       <ul>
         <li><a href="index.html">Menu</a></li>
         <li><a href="location.html">Location</a></li>
-        <li><a href="book.html">Book a Table</a></li>
+        <li><a class="current" href="book.html">Book a Table</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div id="main">
+    <main>
       <h1>Book a Table</h1>
-      <form action="/book" method="post">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
-        <br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-        <br>
-        <label for="party">Party size</label>
-        <input type="number" id="party" name="party">
-        <br>
-        <input type="radio" id="indoor" name="seating" value="indoor">
-        <label for="indoor">Indoor</label>
-        <input type="radio" id="outdoor" name="seating" value="outdoor">
-        <label for="outdoor">Outdoor</label>
-        <br>
-        <label for="requests">Special requests</label>
-        <textarea id="requests" name="requests" rows="3"></textarea>
-        <br>
-        <input type="submit" value="Book a table">
-      </form>
-    </div>
+      <p class="intro">save your spot, we'll save the falafel 🧆</p>
 
-    <div id="footer">
+      <form action="/book" method="post">
+
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="field">
+          <label for="party">Party size</label>
+          <input type="number" id="party" name="party" min="1" max="12" required>
+        </div>
+
+        <div class="field">
+          <p class="field-title">Seating</p>
+          <input type="radio" id="indoor" name="seating" value="indoor">
+          <label class="choice" for="indoor">Indoor</label>
+          <input type="radio" id="outdoor" name="seating" value="outdoor">
+          <label class="choice" for="outdoor">Outdoor</label>
+        </div>
+
+        <div class="field">
+          <label for="requests">Special requests</label>
+          <textarea id="requests" name="requests" rows="3"></textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Book a table">
+      </form>
+    </main>
+
+
+    <footer>
+      <p class="footer-name">Little Lemon 🍋</p>
       <p>123 Rome Road, Main District, Capital City</p>
       <p>Open daily, 11:00–22:00 · (021) 555 0123</p>
-    </div>
+      <p>see you soon, bestie 💛</p>
+    </footer>
   </body>
 </html>
