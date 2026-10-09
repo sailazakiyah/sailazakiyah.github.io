@@ -1,35 +1,57 @@
-<!-- slide: s1-div-code · Part 1, not RPS · end state -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
     <title>Our Location</title>
     <meta name="description" content="Middle Eastern food in the Main District.">
     <meta name="author" content="Lazuardi Al-Muzaki">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="header">
-      <p><a href="index.html">Little Lemon</a></p>
-      <p>Middle Eastern food in the Main District</p>
-    </div>
+    <header>
+      <p class="sparkles">🧆 ✨ 🍋 ✨ 🥗</p>
+      <p id="site-name"><a href="index.html">Little Lemon</a></p>
+      <p id="tagline">Middle Eastern food in the Main District</p>
+      <p class="open-badge">open daily 11:00–22:00 · come hungry</p>
+    </header>
 
-    <div id="nav">
+    <nav>
       <ul>
         <li><a href="index.html">Menu</a></li>
-        <li><a href="location.html">Location</a></li>
+        <li><a class="current" href="location.html">Location</a></li>
         <li><a href="book.html">Book a Table</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div id="main">
+    <main>
       <h1>Our Location</h1>
-      <p>123 Rome Road, Main District, Capital City</p>
-      <p>Open daily, 11:00–22:00</p>
-      <p>Call us on (021) 555 0123 or <a href="book.html">book a table online</a>.</p>
-    </div>
+      <p class="intro">find us, we're easy to spot 📍</p>
 
-    <div id="footer">
+      <div class="info address">
+        <h2>Address</h2>
+        <p>123 Rome Road, Main District, Capital City</p>
+      </div>
+
+      <div class="info hours">
+        <h2>Opening hours</h2>
+        <p>Open daily, 11:00–22:00</p>
+      </div>
+
+      <div class="info phone">
+        <h2>Call us</h2>
+        <p>(021) 555 0123</p>
+      </div>
+
+      <p>Prefer to reserve ahead? <a class="btn" href="book.html">Book a table online</a></p>
+    </main>
+
+    <footer>
+      <p class="footer-name">Little Lemon 🍋</p>
       <p>123 Rome Road, Main District, Capital City</p>
       <p>Open daily, 11:00–22:00 · (021) 555 0123</p>
-    </div>
+      <p>see you soon, bestie 💛</p>
+    </footer>
   </body>
 </html>
